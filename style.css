@@ -1,0 +1,253 @@
+header{
+   height: 100vh;
+   background-image: url(img/1111.jpg);
+   background-size: cover;
+}
+body{
+    margin: 0;
+}
+header div{
+ display: flex;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.308);
+
+}
+header h1{
+    margin: auto;
+    color: rgb(243, 230, 198);
+    font-size: 11vw;
+    font-family: PressStart;
+}
+@font-face {
+    font-family: PressStart;
+    src: url(fonts/EmblemaOne-Regular.ttf);
+}
+#pp{
+    background-color: rgba(0, 0, 0, 0.308);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+background-image: url(img/crystal-mountain.jpg);
+}
+#b1{
+    width: 60%;
+    font-size: 2vw;
+    color: rgb(0,0,0);
+    padding: 5%;
+   
+}
+#p button{
+padding: 20px 30px;
+background-color: rgba(11, 62, 143, 0.556);
+border: 2px dotted rgb(82, 79, 129);
+}
+#ch{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+#ch img{
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    transition: all 1s;
+}
+#ch h2{
+    color: rgb(167, 219, 209);
+    font-family: Shafarik;
+    font-size: 7vw;
+    font-family: Shafarik;
+}
+@font-face {
+    font-family: Shafarik;
+    src: url(fonts/EmblemaOne-Regular.ttf);
+}
+#ch div{
+    width: 100%;
+}
+#ch p{
+    color: aliceblue;
+    font-size: 2.5vw;
+    line-height: 1.5;
+}
+#ch button{
+    padding: 15px 40px;
+    font-size: 3vw;
+}
+#usa{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    gap: -100%;
+    padding-bottom: 100px;
+}
+#usa img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    transition: all 1s;
+}
+#usa #info img{
+    width: 50%;
+    height: 700px;
+    object-fit: cover;
+    display: flex;
+    transition: all 1s;
+}
+#usa #info{
+    width: 80%;
+   height: 700px;
+   object-fit: cover;
+}
+#info div{
+    width: 80%;
+    border: 3px solid rgb(210, 217, 253);
+    box-shadow: 5px 5px 5px 5px rgb(128, 153, 230);
+    margin-left: 10%;
+    margin-top: -90px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: bisque;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+#jap{
+    display: flex;
+   margin-top: 200px;
+   border: 8px groove rgb(247, 181, 203);
+}
+#jap img{
+    width: 70vh;
+    height: 80vh;
+}
+#sh{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(176, 132, 132);
+    position: relative;
+    color: rgb(254, 232, 232);
+}
+#moon{
+    display: flex;
+    border: 5px dashed rgba(157, 157, 157, 0.592);
+}
+#t img{
+    width: 55vh;
+    height: 55vh;
+    padding: 90px 70px 70px 70px;
+}
+#u{
+    background-image: url(img/mmm.webp);
+    width: 108%;
+    height: 75vh;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align:initial;
+    font-size: 2vh;
+}
+#u h1{
+    margin-left: 70px ;
+    margin-top: 30px;
+}
+#u p{
+    padding: 10px;
+    margin-left: 20px;
+}
+#hal {
+    background-color: rgba(30, 50, 116, 0.562);
+}
+#hal h1{
+    text-align: center;
+    
+}
+#d img{
+    width: 60vh;
+    height: 45vh;
+    border: 5px groove rgb(128, 128, 128) ;
+    margin: 10px;   
+}
+
+#h{
+    display: flex;
+    padding: 10px;
+}
+#h div{
+    padding: 10px;
+}
+#bron{
+    background-image: url(img/Aeroport.png);
+    background-size: cover;
+    padding: 50px;
+}
+#bron form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}
+#bron input, #bron select{
+    width: 100%;
+    font-size: 20px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+#bron h2{
+    font-family: Shafarik;
+    font-size: 4vw;
+    color: rgb(222, 212, 212);
+}
+[tupe=submit]{
+    margin-top: 30px;
+    transform: all 1s;
+}
+[type=submit]:hover {
+    transform: scale(1.2);
+}
+#bron2 #y{
+    text-align: center;
+    border: 5px dotted black;
+    justify-content: center;
+}
+nav{
+    padding: 25px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-family: Shafarik;
+    font-size: 3vw;
+    text-decoration: none;
+    color: rgb(250, 246, 234);
+    border-right: 2px solid pink;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav a:last-child{
+    border: none;
+}
+html{
+    scroll-behavior:smooth;
+}
+nav a:hover{
+    color: rgb(153, 217, 249);
+}
+#up{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
